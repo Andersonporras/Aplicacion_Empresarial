@@ -9,7 +9,7 @@ using System.Collections.Generic;
 
 namespace Pacagroup.Ecommerce.Infrastructure.Repository
 {
-    public class CustomersRepository :ICustomersRepository
+    public class CustomersRepository : ICustomersRepository
     {
         private readonly IConnectionFactory _connectionFactory;
 
@@ -180,7 +180,7 @@ namespace Pacagroup.Ecommerce.Infrastructure.Repository
                 return customers;
             }
 
-        }
+        }      
         #endregion
     }
 }
