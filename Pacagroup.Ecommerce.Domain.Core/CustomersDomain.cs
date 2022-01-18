@@ -13,7 +13,7 @@ namespace Pacagroup.Ecommerce.Domain.Core
         public CustomersDomain(ICustomersRepository customersRepository)
         {
             _customersRepository = customersRepository;
-        }
+        }   
 
         #region Metodos sincronos
         public bool Insert(Customers customers)
