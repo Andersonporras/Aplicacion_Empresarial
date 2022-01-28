@@ -149,15 +149,15 @@ namespace Pacagroup.Ecommerce.Service.WebApii.Controllers
 
         }
 
-        [HttpGet]
-        public async Task<IActionResult> GetAllAsync()
-        {
-            var response = await _customersApplication.GetAllAsync();
-            if (response.IsSuccess)
-                return Ok(response);
+        //[HttpGet]
+        //public async Task<IActionResult> GetAllAsync()
+        //{
+        //    var response = await _customersApplication.GetAllAsync();
+        //    if (response.IsSuccess)
+        //        return Ok(response);
 
-            return BadRequest(response.Message);
-        }
+        //    return BadRequest(response.Message);
+        //}
 
         #endregion
     }
